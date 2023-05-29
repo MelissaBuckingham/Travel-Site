@@ -43,8 +43,6 @@ h3{
 #hero-image{
     height:500px;
     width: 100%;
-    background-image: no-repeat center center;
-
     animation-name: hero-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
@@ -95,7 +93,7 @@ h3{
 
 }
 
-#tour {
+.tour {
     border:solid 5px;
 }
 .column {
@@ -220,9 +218,6 @@ footer{
 
 @media screen and (max-width: 800px){
     
-    #comments { 
-        rows:4; cols:30;
-    }
     #hero-image {
         height: 300px;
     }
