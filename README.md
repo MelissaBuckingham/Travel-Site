@@ -22,6 +22,12 @@ Tested all html and css files against jigsaw w3c tools online.
 
 I had a problem trying to get the Youtube image to show. I fixed the issue by using the unicode symbol, which seems to work. not sure it's perfectly acceptable practice but if it works it works...
 
+## Deployment
+
+My site was deployed on github pages at https://melissabuckingham.github.io/Travel-Site/
+
+I had a few issues with the pathways to my files, at first I had 404 errors. çBut then I copied files higher up in the main directory and now it all seems to be functioning as it should.
+
 ## Credits
 
 I used the Love Running project for inspiration including the hero image inclusion and the responsiveness on smaler screened devices.
