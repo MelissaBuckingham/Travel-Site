@@ -16,6 +16,11 @@ The purpose of this site is to provide prospective tourists and visitors the mai
 
 I wanted to make the user experience as easy to use but at the same time making the website unique and interesting to use. 
 
+![Screenshots of the Home Page](images/HomePage.jpg "Home Page")
+![Screenshots of the About Page](images/AboutPage.jpg "About Page")
+![Screenshots of the Tours Page](images/ToursPage.jpg "Tours Page")
+![Screenshots of the website in Mobile View](images/MediaQueriesMobileView.jpg "Media Queries CSS Mobile View")
+
 ## Bugs and Testing
 
 Tested all html and css files against jigsaw w3c tools online.
