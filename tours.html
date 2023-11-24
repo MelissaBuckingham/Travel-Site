@@ -148,8 +148,35 @@
     <br>
     <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Anything else you`d like to add? Do we need to make any adjustments in order to accommodate you or your party? Just write it all in here along with any other comments or queries and we´ll get back to you as soon as possible. We always try our best to accoodate any disabilities, but sometimes things are out of our control."></textarea>
     <br>
-    <input type="submit" id="submit" name="submit">
     <input type="reset" id="reset" name="reset">
+    <div class="error" id="errorMessage"></div>
+    <button type="button" onclick="validateForm()">Submit</button>
+</form>
+  <script> 
+    function validateForm() {
+    
+    const firstName = document.getElementById("fname").value;
+    const lastName = document.getElementById("lname").value;
+    const email = document.getElementById("email").value;
+    const comments = document.getElementById("comments").value;
+
+
+    const errorMessage = document.getElementById("errorMessage");
+    errorMessage.innerHTML = "";
+
+    
+
+    // Simple email validation using regular expression
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        errorMessage.innerHTML = "Enter a valid email address.";
+        return;
+    }
+
+    // If all validations pass, you can proceed with form submission or other actions
+    alert("Form submitted successfully!");
+}
+  </script> 
 </form>
 <br>
 <br>
